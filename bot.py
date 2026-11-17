@@ -8,7 +8,7 @@ ORIGIN       = "IST,SAW"
 DEST         = os.environ.get("DEST", "CPH")
 ADULTS       = 2
 CURRENCY     = "TRY"
-MAX_PRICE    = int(os.environ.get("MAX_PRICE", "15000"))
+MAX_PRICE    = int(os.environ.get("MAX_PRICE", "14000"))
 NONSTOP_ONLY = os.environ.get("NONSTOP_ONLY", "0") == "1"
 ALERT_ONLY   = os.environ.get("ALERT_ONLY", "1") == "1"
 IS_SCHEDULED = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
